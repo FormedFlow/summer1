@@ -19,7 +19,7 @@ function summer(r, sum) {
 }
 Router
   .route('/')
-  .get(r => r.res.end('Привет мир!'));
+  .get(r => r.res.end('Леонид Семенов!'));
 SummerRouter
   .route('/')
   .all(r => {
